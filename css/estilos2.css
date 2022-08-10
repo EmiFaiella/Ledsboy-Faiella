@@ -66,20 +66,13 @@
   .menu nav ul li a{
     text-decoration: none;
   }
-
-  .presentacion{
-    display: flex;
-    flex-direction: column; 
-    justify-content: center;
-    align-items: center;
-  }
   
-  .seccionPresentacion{
+   /* .seccionPresentacion{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-  }
+  } 
   
   .parteIzquierda{
     display: flex;
@@ -95,7 +88,7 @@
     justify-content: center;
     align-items: center;
     
-  }
+  } */
   
   .videosIndex{
     display: flex;
@@ -110,13 +103,7 @@
     
   }
 
-  .videosIndex-Izquierda{
-    padding-right: 0%;
-  }
   
-  .videosIndex-Derecha{
-    margin-left: 40%;
-  }
 
   .sub{
     font-style: normal;
@@ -127,20 +114,10 @@
     padding-left: 5%;
     color: white;
     background: rgba(255, 0, 255, 0.377);
+    text-align: center;
   }
 
   .p_1{
-    font-style: normal;
-    font-weight: bold;
-    font-size: 28px;
-    font-family: 'Roboto', sans-serif;
-    display: flex;
-    text-align: justify;
-    color: white;
-    background: rgba(255, 0, 255, 0.377);
-  }
-  
-  .p2{
     font-style: normal;
     font-weight: bold;
     font-size: 28px;
@@ -297,6 +274,11 @@
     height: 400px; 
   }
   
+  .carousel-item{
+    max-width: 1000px;
+    max-height: 1000px;
+  }
+
   @media screen and (min-width: 0px) and (max-width: 600px) {
 
     .items{
