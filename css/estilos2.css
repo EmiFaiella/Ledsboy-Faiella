@@ -58,43 +58,6 @@
   
   }
 
-  .menu nav ul li{
-    list-style-type: none;
-    margin-left: 15px;
-  }
-  
-  .menu nav ul li a{
-    text-decoration: none;
-  }
-  
-   /* .seccionPresentacion{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  } 
-  
-  .parteIzquierda{
-    display: flex;
-    flex-direction: column; 
-    justify-content: center;
-    align-items: center;
-    
-  }
-  
-  .parteDerecha{
-    display: flex;
-    flex-direction: column; 
-    justify-content: center;
-    align-items: center;
-    
-  } */
-  
-  .videosIndex{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
   
   video{
     display: flex;
@@ -240,7 +203,7 @@
   }
   
   .logoCentrado{
-    
+ 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -259,16 +222,11 @@
   
   }
   .contactate{
-    margin-left: auto;
-    margin-right: auto;
     color: white;
-    background: rgba(255, 0, 255, 0.377);
+    background-color: rgba(255, 0, 255, 0.377);
+    text-align: center;
   }
-  .formulario{
-    margin-left: 50%;
-    display: flex;  
-  }
-  
+
   .img{
     width: 400px;  
     height: 400px; 
@@ -279,55 +237,7 @@
     max-height: 1000px;
   }
 
-  @media screen and (min-width: 0px) and (max-width: 600px) {
-
-    .items{
-        flex-direction: column;
-  
-    }
-
-    .menu{
-        height: auto;
-    }
-  
-    .presentacion{
-      display: flex;
-      flex-direction: column; 
-      justify-content: center;
-      align-items: center;
-    }
-  
-    .seccionPresentacion{
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
-    
-    .parteIzquierda{
-      display: flex;
-      flex-direction: column; 
-      justify-content: center;
-      align-items: center;
-    }
-    
-    .parteDerecha{
-      display: flex;
-      flex-direction: column; 
-      justify-content: center;
-      align-item
-    }
-    
-    .videosIndex{
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      flex-direction: column;
-    }
-    .videosIndex-Derecha{
-      margin-left: 0%;
-    }
-  }
+  @media (max-width: 767.98px) { ... }
   
   @media screen and (min-width: 601px) and (max-width: 768px){
   
