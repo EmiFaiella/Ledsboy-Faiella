@@ -1,27 +1,20 @@
+@import "./variables";
+@import "./mixins";
+
 header {
     div a {
         .menu {
 
-            width: 100%;
-
-            height: 15vh;
-
-            border-bottom: solid 3px purple;
-
-            font-style: normal;
-
-            font-weight: 300;
-
-            font-size: 36px;
+            @extend header;
 
             font-family: 'Poppins', sans-serif;
 
         }
     }
 
-    width: 100%;
+    width: $todo;
 
-    height: 15vh;
+    height: $quince;
 
     border-bottom: solid 3px purple;
 
@@ -33,20 +26,18 @@ header {
 }
 
 footer {
-    width: 100%;
+    width: $todo;
 
     height: 200px;
 
     border-top: solid 3px purple;
 
     .derechosReservados {
-        display: inline-block;
-        color: white;
-        background: rgba(255, 0, 255, 0.377);
-        font-style: normal;
-        font-weight: bold;
-        font-size: 28px;
-        font-family: 'Roboto', sans-serif;
+        @include parrafo(inline-block);
+        color: map-get($map: $estilos, $key: blanco);
+        background: map-get($map: $estilos, $key: fondo);
+        font-size: map-get($map: $tamaño, $key: '28');
+        font-family: map-get($map: $fonts, $key: roboto), map-get($map: $fonts, $key: sans);
     }
 
     .parrafo {
@@ -60,10 +51,6 @@ footer {
     }
 
     .redes {
-
-        display: flex;
-
-        justify-content: center;
-
+        @include redes;
     }
 }

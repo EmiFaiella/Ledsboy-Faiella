@@ -1,0 +1,14 @@
+@mixin parrafo ($direccion) {
+
+    font-style: normal;
+    font-weight: bold;
+    display: $direccion;
+    
+}
+
+@mixin redes {
+    
+    display: flex;
+    justify-content: center;
+
+}
