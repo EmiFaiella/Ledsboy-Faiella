@@ -14,7 +14,7 @@ header {
 
     width: $todo;
 
-    height: $quince;
+    height: $diecisiete;
 
     border-bottom: solid 3px purple;
 
@@ -23,6 +23,7 @@ header {
     font-weight: 300;
 
     font-size: 36px;
+    
 }
 
 footer {
@@ -53,4 +54,9 @@ footer {
     .redes {
         @include redes;
     }
+}
+
+.logo{
+    width: 150px;
+    height: 140px;
 }

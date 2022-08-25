@@ -1,16 +1,28 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@300&display=swap");
 body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
   background-image: url(../images/FondoIndex.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-main .sub {
+.menu {
+  width: 100%;
+  height: 15vh;
+  border-bottom: solid 3px purple;
+  font-style: normal;
   font-weight: 300;
   font-size: 36px;
   font-family: "Poppins", sans-serif;
-  display: inline-block;
-  padding-left: 5%;
+}
+
+main .sub {
+  font-weight: 500;
+  font-size: 36px;
+  font-family: "Poppins", sans-serif;
+  display: flex;
 }
 main .p_1, main .sub {
   font-style: normal;
@@ -28,9 +40,35 @@ main video, main .sub video {
   height: 500px;
 }
 
+.centro {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .centro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+.carousel-item {
+  max-width: 1000px;
+  max-height: 1000px;
+}
+
+.galeria {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
 header, header div a .menu {
   width: 100%;
-  height: 15vh;
+  height: 17vh;
   border-bottom: solid 3px purple;
   font-style: normal;
   font-weight: 300;
@@ -62,6 +100,62 @@ footer .parrafo {
 footer .redes {
   display: flex;
   justify-content: center;
+}
+
+.logo {
+  width: 150px;
+  height: 140px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+
+@media (max-width: 768px) {
+  .cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+.nosotrosSection {
+  display: flex;
+  flex-direction: column;
+}
+
+.texto {
+  text-align: center;
+  color: white;
+  background: rgba(255, 0, 255, 0.377);
+  display: flex;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  font-family: "Poppins", sans-serif;
+  word-spacing: 3px;
+  margin-top: 5%;
+}
+
+.logoCentrado {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoNosotros {
+  width: 700px;
+  height: 700px;
+  display: flex;
+}
+
+.contactate {
+  color: white;
+  background-color: rgba(255, 0, 255, 0.377);
+  text-align: center;
 }
 
 /*# sourceMappingURL=estilos3.css.map */
