@@ -3,12 +3,25 @@
     justify-content: space-around;
     align-items: center;
     flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
+
+
 @media (max-width:768px){
     .cards{
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        
+    }
+    .card{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .card-body{
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
 }

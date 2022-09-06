@@ -3,7 +3,7 @@ body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  background-image: url(../images/FondoIndex.jpeg);
+  background-image: url(../images/FondoBlanco.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -42,6 +42,11 @@ main video, main .sub video {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+  }
+  main video, main .sub video {
+    width: 350px;
+    height: 350px;
+    margin-bottom: 10px;
   }
 }
 .carousel-item {
@@ -91,6 +96,10 @@ footer .redes {
   display: flex;
   justify-content: center;
 }
+footer .padd {
+  margin-left: 10px;
+  margin-right: 10px;
+}
 
 .logo {
   width: 150px;
@@ -102,6 +111,8 @@ footer .redes {
   justify-content: space-around;
   align-items: center;
   flex-direction: row;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 @media (max-width: 768px) {
@@ -110,6 +121,14 @@ footer .redes {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+  }
+  .card {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .card-body {
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 }
 .nosotrosSection {
@@ -137,8 +156,8 @@ footer .redes {
 }
 
 .logoNosotros {
-  width: 700px;
-  height: 700px;
+  width: 50%;
+  height: 50%;
   display: flex;
 }
 

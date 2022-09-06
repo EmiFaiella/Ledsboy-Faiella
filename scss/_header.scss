@@ -54,6 +54,11 @@ footer {
     .redes {
         @include redes;
     }
+
+    .padd{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
 }
 
 .logo{
